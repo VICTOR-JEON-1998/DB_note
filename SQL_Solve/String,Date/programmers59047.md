@@ -15,7 +15,8 @@ Also find some srting condition regardless Upper / Lower
 
 ## My solution query
 ```sql
--- SELECT ANIMAL_ID, NAME
+--
+SELECT ANIMAL_ID, NAME
 FROM ANIMAL_INS
 WHERE (UPPER(NAME) LIKE UPPER('%el%')) AND ANIMAL_TYPE LIKE 'Dog'
 ORDER BY NAME
