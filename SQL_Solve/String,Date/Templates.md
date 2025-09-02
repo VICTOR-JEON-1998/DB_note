@@ -1,4 +1,4 @@
-# 문제 NNN. 문제 제목
+# Tittle
 
 **Problem Link**  
 [Link to problem ](https://example.com/problem-link)
