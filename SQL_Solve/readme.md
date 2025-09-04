@@ -5,7 +5,7 @@
 
 ---
 
-## Explain the problem
+## Tip of solution
 
 ---
 
