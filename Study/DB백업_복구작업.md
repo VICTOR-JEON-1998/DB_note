@@ -39,18 +39,21 @@ DB가 하나의 쿼리를 처리할 때 동시에 사용하는 CPU 코어의 수
 2. 복구가 필요한 DB서버에 접속하여 백업본을 NAS 스토리지에서 E드라이브로 옮긴다. (RESTORE 외부)
 3. 복구가 필요한 DB서버에서 SSMS 접속하여 데이터베이스 → 복구 기능
 
-![image.png](attachment:6af706e4-190f-4cf9-8959-bf6d87980503:image.png)
+<img width="1651" height="908" alt="image" src="https://github.com/user-attachments/assets/fe3aa0f2-d751-4ee7-8b3b-79c4efe63a3d" />
+
 
 1. 디바이스에서 데이터베이스 → 복구가 필요한 백업본을 찾는다
 2. 대상 : 데이터베이스에서 복구할 백업본의 이름을 변경한다 예시) ERP ⇒ ERP_TT
 
-![image.png](attachment:89826812-b90c-4ab4-817e-9f0f0855c399:image.png)
+<img width="1651" height="908" alt="image" src="https://github.com/user-attachments/assets/be9714c7-031c-4970-8ce3-0c774f34ecd9" />
+
 
 1. “파일” 에서 모든 파일을 폴더 위치로 변경 클릭 후, 데이터 파일 폴더, 로그 파일 폴더 경로를 E드라이브의 RESTORE를 선택한다
     1. RECOVERY / RESTORE는 다른 것이다
     2. RESTORE : DB를 불러와서 바로 사용할 수 있게 만듦. 
 
-![image.png](attachment:3f2fc2ff-8c61-42b5-94cf-8515a49de779:image.png)
+<img width="1237" height="716" alt="image" src="https://github.com/user-attachments/assets/2d6bf5f4-8bb2-48da-acdc-44e9e5bf0925" />
+
 
 1. “옵션” 에서 복구 상태를 트랜잭션 로그 백업 유무에 따라 다르게 선택한다.
 2. 비상 로그 백업은 **비활성화** 한다!
@@ -88,7 +91,7 @@ DB가 하나의 쿼리를 처리할 때 동시에 사용하는 CPU 코어의 수
 
 ### TASK - 축소 - 파일을 통해 사용하지 않는 공간 해제 가능
 
-![image.png](attachment:614e025c-b016-4a93-9b51-434494bdebc5:image.png)
+<img width="1027" height="870" alt="image" src="https://github.com/user-attachments/assets/5ada1be5-91d3-40aa-b8d5-d58ce50f6ab4" />
 
 디스크 조각 모음 처럼 동작 가능
 
